@@ -1,4 +1,4 @@
-from simulator.base_layer import BaseLayer
+from core.base_layer import BaseLayer
 import base64
 import zlib
 

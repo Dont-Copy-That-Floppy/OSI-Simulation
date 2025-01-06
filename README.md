@@ -86,7 +86,7 @@ osi-layer-network-simulator/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/username/osi-layer-network-simulator.git
+   git clone https://github.com/username/osi-layer-network-git
    cd osi-layer-network-simulator
    ```
 2. **Install Dependencies:**

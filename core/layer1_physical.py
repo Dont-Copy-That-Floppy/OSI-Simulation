@@ -1,4 +1,4 @@
-class HardwareInterface:
+class PhysicalLayer:
     def __init__(self, name, interface_type="RJ45"):
         self.name = name
         self.interface_type = interface_type

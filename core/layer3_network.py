@@ -1,4 +1,4 @@
-from simulator.base_layer import BaseLayer
+from core.base_layer import BaseLayer
 
 class NetworkLayer(BaseLayer):
     def __init__(self, ip_address="192.168.1.1"):
