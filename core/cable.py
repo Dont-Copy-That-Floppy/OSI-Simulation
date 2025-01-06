@@ -1,5 +1,6 @@
 import random
 
+
 class Cable:
     CABLE_TYPES = {
         "Cat5": {"speed": 100, "bandwidth": "100 Mbps", "error_rate": 0.02, "interfaces": ["RJ45"]},

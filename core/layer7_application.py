@@ -1,8 +1,7 @@
 import http.server
 import socketserver
 import threading
-from base_service import BaseService
-from simulator.base_layer import BaseLayer
+from core.base_layer import BaseLayer
 
 
 class ApplicationLayer(BaseLayer):
@@ -101,6 +100,18 @@ class HTTPServerApp(AttachableService):
         return f"HTTP Response: {data}"
 
     # Realistic server behavior can be added as needed
+
+
+class BaseService:
+    def __init__(self, name, port):
+        self.name = name
+        self.port = port
+
+    def process_request(self, data):
+        """
+        Override this method in derived classes to handle specific protocol logic.
+        """
+        raise NotImplementedError("This method must be implemented by subclasses.")
 
 
 class HTTPService(BaseService):

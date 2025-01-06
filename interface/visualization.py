@@ -1,13 +1,13 @@
 import tkinter as tk
 from tkinter import ttk
-from simulator.layer7_application import ApplicationLayer
-from simulator.layer6_presentation import PresentationLayer
-from simulator.layer5_session import SessionLayer
-from simulator.layer4_transport import TransportLayer
-from simulator.layer3_network import NetworkLayer
-from simulator.layer2_datalink import DataLinkLayer
-from simulator.layer1_physical import PhysicalLayer, HardwareInterface
-from simulator.cable import Cable
+from core.layer7_application import ApplicationLayer
+from core.layer6_presentation import PresentationLayer
+from core.layer5_session import SessionLayer
+from core.layer4_transport import TransportLayer
+from core.layer3_network import NetworkLayer
+from core.layer2_datalink import DataLinkLayer
+from core.layer1_physical import PhysicalLayer, HardwareInterface
+from core.cable import Cable
 
 
 class OSILayerSimulator:

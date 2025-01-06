@@ -1,4 +1,4 @@
-from simulator.base_layer import BaseLayer
+from core.base_layer import BaseLayer
 import random
 
 class TransportLayer(BaseLayer):
